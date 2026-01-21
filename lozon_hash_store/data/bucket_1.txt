@@ -1,0 +1,2 @@
+1	tagId=1128;relevance=0.023
+5	tagId=1128;relevance=0.01825

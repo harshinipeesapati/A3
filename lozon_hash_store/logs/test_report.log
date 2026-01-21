@@ -1,0 +1,97 @@
+2026-01-21T23:03:41.295242 TEST: === LOZON DB HASH-BASED CLOUD STORAGE TEST ===
+2026-01-21T23:03:45.143249 TEST: === PROCESSES STARTED ===
+2026-01-21T23:03:45.144690 TEST: Bucket 0: PID=14696, Port=9100, File=D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_0.txt
+2026-01-21T23:03:45.145616 TEST: Bucket 1: PID=3688, Port=9101, File=D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_1.txt
+2026-01-21T23:03:45.146341 TEST: Bucket 2: PID=13700, Port=9102, File=D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_2.txt
+2026-01-21T23:03:45.147298 TEST: Bucket 3: PID=8576, Port=9103, File=D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_3.txt
+2026-01-21T23:03:45.148093 TEST: Coordinator: PID=19140, Port=9000
+2026-01-21T23:03:45.149782 TEST: === STORAGE FILES CREATED ===
+2026-01-21T23:03:45.150571 TEST: Bucket 0: D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_0.txt (0 bytes - ready)
+2026-01-21T23:03:45.151270 TEST: Bucket 1: D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_1.txt (0 bytes - ready)
+2026-01-21T23:03:45.151831 TEST: Bucket 2: D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_2.txt (0 bytes - ready)
+2026-01-21T23:03:45.152369 TEST: Bucket 3: D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_3.txt (0 bytes - ready)
+2026-01-21T23:03:45.153062 TEST: Loading genome_scores.csv into distributed storage...
+2026-01-21T23:04:09.890764 TEST: Inserted 1000 records...
+2026-01-21T23:04:33.203375 TEST: Inserted 2000 records...
+2026-01-21T23:04:58.450784 TEST: Inserted 3000 records...
+2026-01-21T23:05:24.462396 TEST: Inserted 4000 records...
+2026-01-21T23:05:50.924224 TEST: Inserted 5000 records...
+2026-01-21T23:06:15.784376 TEST: Inserted 6000 records...
+2026-01-21T23:06:42.371665 TEST: Inserted 7000 records...
+2026-01-21T23:07:09.121426 TEST: Inserted 8000 records...
+2026-01-21T23:07:36.495092 TEST: Inserted 9000 records...
+2026-01-21T23:08:02.540587 TEST: Inserted 10000 records...
+2026-01-21T23:08:02.541214 TEST: INSERT PHASE COMPLETE: 10000 unique keys stored
+2026-01-21T23:08:02.541721 TEST: === FILE STATUS AFTER INSERT ===
+2026-01-21T23:08:02.586781 TEST: Bucket 0: 2 keys, 60 bytes, D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_0.txt
+2026-01-21T23:08:02.604177 TEST: Bucket 1: 3 keys, 105 bytes, D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_1.txt
+2026-01-21T23:08:02.619752 TEST: Bucket 2: 2 keys, 62 bytes, D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_2.txt
+2026-01-21T23:08:02.635653 TEST: Bucket 3: 2 keys, 62 bytes, D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data\bucket_3.txt
+2026-01-21T23:08:02.636627 TEST: TOTAL: 9 keys, 289 bytes across 4 buckets
+2026-01-21T23:08:02.637287 TEST: === RANDOM DATA ACCESS (≥3 processes) ===
+2026-01-21T23:08:02.681542 TEST: SEARCH HIT: key=3 (process via coordinator log)
+2026-01-21T23:08:02.712008 TEST: SEARCH HIT: key=2 (process via coordinator log)
+2026-01-21T23:08:02.744152 TEST: SEARCH HIT: key=6 (process via coordinator log)
+2026-01-21T23:08:02.760996 TEST: SEARCH HIT: key=8 (process via coordinator log)
+2026-01-21T23:08:02.775121 TEST: SEARCH HIT: key=9 (process via coordinator log)
+2026-01-21T23:08:02.792807 TEST: SEARCH HIT: key=4 (process via coordinator log)
+2026-01-21T23:08:02.808651 TEST: SEARCH HIT: key=2 (process via coordinator log)
+2026-01-21T23:08:02.823930 TEST: SEARCH HIT: key=1 (process via coordinator log)
+2026-01-21T23:08:02.853879 TEST: SEARCH HIT: key=1 (process via coordinator log)
+2026-01-21T23:08:02.884433 TEST: SEARCH HIT: key=4 (process via coordinator log)
+2026-01-21T23:08:02.901319 TEST: SEARCH HIT: key=3 (process via coordinator log)
+2026-01-21T23:08:02.916701 TEST: SEARCH HIT: key=5 (process via coordinator log)
+2026-01-21T23:08:02.931277 TEST: SEARCH HIT: key=2 (process via coordinator log)
+2026-01-21T23:08:02.935169 TEST: SEARCH HIT: key=9 (process via coordinator log)
+2026-01-21T23:08:02.964068 TEST: SEARCH HIT: key=4 (process via coordinator log)
+2026-01-21T23:08:02.967885 TEST: SEARCH HIT: key=2 (process via coordinator log)
+2026-01-21T23:08:02.994846 TEST: SEARCH HIT: key=3 (process via coordinator log)
+2026-01-21T23:08:03.008562 TEST: SEARCH HIT: key=7 (process via coordinator log)
+2026-01-21T23:08:03.027477 TEST: SEARCH HIT: key=6 (process via coordinator log)
+2026-01-21T23:08:03.057721 TEST: SEARCH HIT: key=2 (process via coordinator log)
+2026-01-21T23:08:03.088619 TEST: SEARCH HIT: key=4 (process via coordinator log)
+2026-01-21T23:08:03.106030 TEST: SEARCH HIT: key=2 (process via coordinator log)
+2026-01-21T23:08:03.110598 TEST: SEARCH HIT: key=6 (process via coordinator log)
+2026-01-21T23:08:03.151059 TEST: SEARCH HIT: key=8 (process via coordinator log)
+2026-01-21T23:08:03.167860 TEST: SEARCH HIT: key=7 (process via coordinator log)
+2026-01-21T23:08:03.197361 TEST: SEARCH HIT: key=9 (process via coordinator log)
+2026-01-21T23:08:03.228214 TEST: SEARCH HIT: key=8 (process via coordinator log)
+2026-01-21T23:08:03.243693 TEST: SEARCH HIT: key=7 (process via coordinator log)
+2026-01-21T23:08:03.260479 TEST: SEARCH HIT: key=3 (process via coordinator log)
+2026-01-21T23:08:03.265514 TEST: SEARCH HIT: key=3 (process via coordinator log)
+2026-01-21T23:08:03.269085 TEST: SEARCH HIT: key=5 (process via coordinator log)
+2026-01-21T23:08:03.290873 TEST: SEARCH HIT: key=4 (process via coordinator log)
+2026-01-21T23:08:03.321445 TEST: SEARCH HIT: key=6 (process via coordinator log)
+2026-01-21T23:08:03.337269 TEST: SEARCH HIT: key=9 (process via coordinator log)
+2026-01-21T23:08:03.352103 TEST: SEARCH HIT: key=9 (process via coordinator log)
+2026-01-21T23:08:03.370157 TEST: SEARCH HIT: key=1 (process via coordinator log)
+2026-01-21T23:08:03.383884 TEST: SEARCH HIT: key=7 (process via coordinator log)
+2026-01-21T23:08:03.415266 TEST: SEARCH HIT: key=8 (process via coordinator log)
+2026-01-21T23:08:03.430882 TEST: SEARCH HIT: key=1 (process via coordinator log)
+2026-01-21T23:08:03.462656 TEST: SEARCH HIT: key=4 (process via coordinator log)
+2026-01-21T23:08:03.493361 TEST: SEARCH HIT: key=3 (process via coordinator log)
+2026-01-21T23:08:03.509985 TEST: SEARCH HIT: key=3 (process via coordinator log)
+2026-01-21T23:08:03.526313 TEST: SEARCH HIT: key=7 (process via coordinator log)
+2026-01-21T23:08:03.556217 TEST: SEARCH HIT: key=9 (process via coordinator log)
+2026-01-21T23:08:03.588095 TEST: SEARCH HIT: key=9 (process via coordinator log)
+2026-01-21T23:08:03.604211 TEST: SEARCH HIT: key=6 (process via coordinator log)
+2026-01-21T23:08:03.619505 TEST: SEARCH HIT: key=7 (process via coordinator log)
+2026-01-21T23:08:03.651555 TEST: SEARCH HIT: key=8 (process via coordinator log)
+2026-01-21T23:08:03.682489 TEST: SEARCH HIT: key=4 (process via coordinator log)
+2026-01-21T23:08:03.698620 TEST: SEARCH HIT: key=4 (process via coordinator log)
+2026-01-21T23:08:03.699276 TEST: Completed 50 random reads - check run.log for bucket distribution
+2026-01-21T23:08:03.700118 TEST: === DELETION TEST (2+ keys) ===
+2026-01-21T23:08:03.700986 TEST: Deleting keys: ['4', '9']
+2026-01-21T23:08:03.706870 TEST: DELETE 4: OK (details in run.log)
+2026-01-21T23:08:03.712127 TEST: VERIFY DELETE 4: NOT_FOUND
+2026-01-21T23:08:03.744915 TEST: DELETE 9: OK (details in run.log)
+2026-01-21T23:08:03.759948 TEST: VERIFY DELETE 9: NOT_FOUND
+2026-01-21T23:08:03.760769 TEST: === RANGE QUERY TEST (multi-bucket) ===
+2026-01-21T23:08:03.761321 TEST: Query range: '3' → '7'
+2026-01-21T23:08:03.809302 TEST: RANGE RESULT: 4 keys from multiple buckets (details in run.log)
+2026-01-21T23:08:03.810582 TEST: === TEST SUITE COMPLETED SUCCESSFULLY ===
+2026-01-21T23:08:03.811509 TEST: Coordinator operations: D:\Uni Wien\2025W\CC\A3\lozon_hash_store\logs\run.log
+2026-01-21T23:08:03.812371 TEST: Test report: D:\Uni Wien\2025W\CC\A3\lozon_hash_store\logs\test_report.log
+2026-01-21T23:08:03.813009 TEST: Persistent storage: D:\Uni Wien\2025W\CC\A3\lozon_hash_store\data/
+2026-01-21T23:08:03.813581 TEST: Shutting down distributed system...
+2026-01-21T23:08:06.817563 TEST: === LOZON DB TEST COMPLETE ===
